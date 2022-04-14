@@ -1,0 +1,45 @@
+<div class="container-fluid mt-5 service-style" id="contactid">
+    <div class="row">
+        <div class="col md-10 col mx-12 mx-auto">
+            <h1 class="text-center main-heading">Contact US</h1>
+            <p class="text-center sub-heading">Please enter your Details to Contact</p>
+            <div class="Contactrow">
+                <div class="col-md-4">
+
+                    <form method="post" action="/contact">
+                        <div class="form-group">
+                            <label for="exampleInputName">Name:</label>
+                            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp"
+                                placeholder="Enter Your Name" name="Name">
+                            {{!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small> --}}
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email:</label>
+                            <input type="text" class="form-control" name="Email" id="email" aria-describedby="emailHelp"
+                                placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPhone">Phone No.:</label>
+                            <input type="number" class="form-control" id="Phone" name="Phone"
+                                aria-describedby="emailHelp" placeholder="Enter Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputMessage">Password</label>
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Please Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputMessage">Password</label>
+                            <input type="password" class="form-control" id="C_password" name="confirmPassword"
+                                placeholder="Please Re-Enter Your Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-style">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

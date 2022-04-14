@@ -1,0 +1,237 @@
+html{
+    font-size: 62.5%;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+li,  
+p,  
+a{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.row{
+    margin: 0;
+}
+
+.nav-bar-style{
+    background-color:#f8f9fa;
+    box-shadow: 2px 4px 13px 1px rgba(8,8,8,0.04);
+}
+
+
+#logo{
+    float: left;
+    display: initial;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    color: #e77676;
+}
+#logo:hover{
+    color: #141111;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e77676;
+}
+
+/* Hero Section */
+.hero-text h1{
+    font-size: 5.5rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0,  0.26);
+    color: #2f2f2f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2){
+    font-weight: bold;
+    color: #e77676;
+};
+
+.hero-text p ,
+.our-services p,
+label{
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    color: #141111;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+    margin-top: 1.5rem;
+}
+
+.hero-text p span{
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-style{
+    padding: 12px 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    background-color: #e77676;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition:0.5s all;
+    transition: 0.5s all;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* About Us Styling */
+.main-heading{
+    font-weight: bold;
+    color: #e77676;
+    text-transform: uppercase;
+}
+
+.sub-heading{
+    font-weight: bold;
+    color:#04304b;
+    text-transform: uppercase;   
+    font-size: 2.1rem;
+}
+
+
+/* Service Page Styling */
+.service-style{
+    margin-bottom: 10rem;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30;
+    padding: 0 30px;
+    min-height: 198px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.our-services .icons{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.our-services h4{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.our-services:hover h4,
+.our-services:hover p{
+    color:#fff;
+    cursor: pointer;
+}
+
+.speedup:hover{
+    box-shadow: 0 0 25px 0 rgba(33,39 ,221 ,0.2 );
+    cursor: pointer;
+    background-image: linear-gradient(-45deg , #f33474 0% , #f88c6b 50%);
+}
+
+.settings:hover{
+    box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg , #5035ec 0%, #44a2f6 50%);
+}
+
+.privacy:hover{
+    box-shadow: 0 0 27px 0 rgba(20,27 ,201 ,0.2 );
+    cursor: pointer;
+    background-image: linear-gradient(-45deg ,#5035ec 0% , #44a2f6 50%);
+}
+
+
+.backup:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27 ,201 ,0.2 );
+    cursor: pointer;
+    background-image: linear-gradient(-45deg , #fd7f30 0% , #fdb642 50%);
+}
+
+.ssl:hover{
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg , #974eff 0% , #5a57fb 50%);
+}
+
+.database:hover{
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #26c087 0% , rgb(57, 233, 145) 50%);
+}
+
+/* Contact us Page Styling */
+/* contact us starts here  */
+
+.contact-style {
+    margin: 10rem 0;
+  }
+  
+  label {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  
+  .form-control {
+    padding: 2rem 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  #emailHelp,
+::placeholder {
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-weight: 600;
+}
+
+.Contactrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    /* // Login *
